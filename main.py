@@ -1,7 +1,7 @@
 import smtplib
 import os
 
-RECIPIENTS = ["ratter.outwork_2h@icloud.com", "vgl0911@icloud.com"]
+RECIPIENTS = ["ratter.outwork_2h@icloud.com", "hgl0911@icloud.com"]
 my_email = os.environ.get("MY_EMAIL")
 password = os.environ.get("MY_PASSWORD")
 
