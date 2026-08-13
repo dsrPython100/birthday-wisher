@@ -23,3 +23,4 @@ with smtplib.SMTP("smtp.gmail.com",
             from_addr=my_email,
             to_addrs=address,
             msg=f"Subject: Your Daily Zen\n\n{quote}\n-- {author}"
+        )
